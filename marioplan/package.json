@@ -7,9 +7,11 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-redux": "^5.0.7",
+    "react-redux-firebase": "^2.1.6",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
     "redux": "^4.0.0",
+    "redux-firestore": "^0.5.7",
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
