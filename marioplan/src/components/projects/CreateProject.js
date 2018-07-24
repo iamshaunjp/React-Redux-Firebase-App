@@ -16,6 +16,7 @@ class CreateProject extends Component {
     e.preventDefault();
     // console.log(this.state);
     this.props.createProject(this.state);
+    this.props.history.push('/');
   }
   render() {
     return (
