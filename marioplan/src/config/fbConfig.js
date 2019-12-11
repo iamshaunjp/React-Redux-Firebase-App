@@ -1,17 +1,18 @@
-import firebase from 'firebase/app';
-import 'firebase/firestore';
-import 'firebase/auth';
+import firebase from "firebase/app";
+import "firebase/firestore";
+import "firebase/auth";
 
 // Replace this with your own config details
 var config = {
-  apiKey: "AIzaSyDo2HauU6PtL3PY6KthXdpIUzbDV908avo",
-  authDomain: "marioplan-files.firebaseapp.com",
-  databaseURL: "https://marioplan-files.firebaseio.com",
-  projectId: "marioplan-files",
-  storageBucket: "marioplan-files.appspot.com",
-  messagingSenderId: "1011174152626"
+  apiKey: "AIzaSyDHZ89X0HGrUC0-aeVI1aUvyikmv9ZunJI",
+  authDomain: "ninja-marioplan-f8363.firebaseapp.com",
+  databaseURL: "https://ninja-marioplan-f8363.firebaseio.com",
+  projectId: "ninja-marioplan-f8363",
+  storageBucket: "ninja-marioplan-f8363.appspot.com",
+  messagingSenderId: "254273020159",
+  appId: "1:254273020159:web:44d8621dfe68d02d15ecca",
+  measurementId: "G-2R0ZL2E50Q"
 };
 firebase.initializeApp(config);
-firebase.firestore().settings({ timestampsInSnapshots: true });
 
-export default firebase 
+export default firebase;
